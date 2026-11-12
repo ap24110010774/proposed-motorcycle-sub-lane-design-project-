@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-11T20:35:19.261405+05:30 by Eclipse SUMO GUI 1.27.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\internship\USA-style traffic where motorcycles occupy an entire lane\Heavy-vehicle (truckbus) dominant traffic\network.net.xml"/>
+        <route-files value="D:\internship\USA-style traffic where motorcycles occupy an entire lane\Heavy-vehicle (truckbus) dominant traffic\network.rou.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="D:\internship\USA-style traffic where motorcycles occupy an entire lane\Heavy-vehicle (truckbus) dominant traffic\summary.xml"/>
+        <tripinfo-output value="D:\internship\USA-style traffic where motorcycles occupy an entire lane\Heavy-vehicle (truckbus) dominant traffic\tripinfo.xml"/>
+        <edgedata-output value="D:\internship\USA-style traffic where motorcycles occupy an entire lane\Heavy-vehicle (truckbus) dominant traffic\edgedata.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="361"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.2"/>
+    </processing>
+
+    <gui_only>
+        <delay value="1000"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="19.60" id="DEFAULT_EDGEDATA">
+        <edge id="-E0" sampledSeconds="246.50" traveltime="15.91" overlapTraveltime="16.34" density="50.25" overlapDensity="50.31" laneDensity="25.13" occupancy="17.12" waitingTime="0.00" timeLoss="48.85" speed="15.71" speedRelative="0.52" departed="26" arrived="7" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0" flow="2841.81"/>
+        <edge id="E0" sampledSeconds="251.20" traveltime="16.02" overlapTraveltime="16.45" density="51.19" overlapDensity="51.27" laneDensity="25.60" occupancy="16.98" waitingTime="0.00" timeLoss="51.05" speed="15.60" speedRelative="0.62" departed="27" arrived="8" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0" flow="2875.33"/>
+    </interval>
+</meandata>

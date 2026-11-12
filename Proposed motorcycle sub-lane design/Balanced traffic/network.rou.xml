@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-07-27T19:56:09.232770+05:30 by Eclipse SUMO netedit 1.27.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="bike_left" length="2.00" maxSpeed="22.89" vClass="motorcycle" width="0.80" latAlignment="left"/>
+    <vType id="bike_right" length="2.00" maxSpeed="23.89" vClass="motorcycle" latAlignment="right"/>
+    <vType id="car" length="5.00" maxSpeed="30.00"/>
+    <vType id="truck" length="12.00" maxSpeed="18.11" vClass="truck" width="2.50"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_1" type="bike_left" begin="0.00" end="360.00" perHour="1400.00" departLane="random" departSpeed="max" color="red" from="E0" to="E0"/>
+    <flow id="f_2" type="bike_right" begin="0.00" end="360.00" perHour="1458.74" departLane="random" departSpeed="max" color="green" from="E0" to="E0"/>
+    <flow id="f_3" type="truck" begin="0.00" end="360.00" perHour="1051.06" departLane="random" departSpeed="max" color="0,111,255" from="E0" to="E0"/>
+    <flow id="f_4" type="truck" begin="0.00" end="360.00" perHour="1100.00" departLane="random" departSpeed="max" from="-E0" to="-E0"/>
+    <flow id="f_5" type="car" begin="0.00" end="360.00" perHour="1600.78" departLane="random" departSpeed="max" color="green" from="-E0" to="-E0"/>
+    <flow id="f_6" type="bike_right" begin="0.00" end="360.00" perHour="1458.74" departLane="random" departSpeed="max" color="grey" from="-E0" to="-E0"/>
+    <flow id="f_7" type="bike_left" begin="0.00" end="360.00" perHour="1400.00" departLane="random" departSpeed="max" color="0,107,255" from="-E0" to="-E0"/>
+    <flow id="f_8" type="car" begin="0.00" end="360.00" perHour="1700.78" from="E0" to="E0"/>
+</routes>

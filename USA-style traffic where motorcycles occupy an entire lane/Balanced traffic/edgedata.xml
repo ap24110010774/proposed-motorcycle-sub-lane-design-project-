@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-11T20:34:01.785473+05:30 by Eclipse SUMO GUI 1.27.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\internship\USA-style traffic where motorcycles occupy an entire lane\Balanced traffic\network.net.xml"/>
+        <route-files value="D:\internship\USA-style traffic where motorcycles occupy an entire lane\Balanced traffic\network.rou.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="D:\internship\USA-style traffic where motorcycles occupy an entire lane\Balanced traffic\summary.xml"/>
+        <tripinfo-output value="D:\internship\USA-style traffic where motorcycles occupy an entire lane\Balanced traffic\tripinfo.xml"/>
+        <edgedata-output value="D:\internship\USA-style traffic where motorcycles occupy an entire lane\Balanced traffic\edgedata.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="361"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.2"/>
+    </processing>
+
+    <gui_only>
+        <delay value="1000"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="19.90" id="DEFAULT_EDGEDATA">
+        <edge id="-E0" sampledSeconds="263.90" traveltime="19.50" overlapTraveltime="19.88" density="53.01" overlapDensity="53.05" laneDensity="26.50" occupancy="13.40" waitingTime="0.00" timeLoss="84.42" speed="12.83" speedRelative="0.32" departed="26" arrived="4" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0" flow="2447.00"/>
+        <edge id="E0" sampledSeconds="255.00" traveltime="16.42" overlapTraveltime="16.75" density="51.18" overlapDensity="51.26" laneDensity="25.59" occupancy="13.38" waitingTime="0.00" timeLoss="50.59" speed="15.24" speedRelative="0.30" departed="26" arrived="8" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0" flow="2806.32"/>
+    </interval>
+</meandata>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-11T20:32:19.208085+05:30 by Eclipse SUMO GUI 1.27.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\internship\Proposed motorcycle sub-lane design\Heavy-vehicle (truckbus) dominant traffic\network.net.xml"/>
+        <route-files value="D:\internship\Proposed motorcycle sub-lane design\Heavy-vehicle (truckbus) dominant traffic\network.rou.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="D:\internship\Proposed motorcycle sub-lane design\Heavy-vehicle (truckbus) dominant traffic\summary.xml"/>
+        <tripinfo-output value="D:\internship\Proposed motorcycle sub-lane design\Heavy-vehicle (truckbus) dominant traffic\tripinfo.xml"/>
+        <edgedata-output value="D:\internship\Proposed motorcycle sub-lane design\Heavy-vehicle (truckbus) dominant traffic\edgedata.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="361"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.2"/>
+    </processing>
+
+    <gui_only>
+        <delay value="1000"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="15.70" id="DEFAULT_EDGEDATA">
+        <edge id="-E0" sampledSeconds="186.60" traveltime="12.27" overlapTraveltime="12.59" density="47.48" overlapDensity="47.54" laneDensity="23.74" occupancy="15.34" waitingTime="0.00" timeLoss="46.82" speed="20.38" speedRelative="0.51" departed="26" arrived="7" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0" flow="3481.36"/>
+        <edge id="E0" sampledSeconds="196.47" traveltime="12.28" overlapTraveltime="12.56" density="49.95" overlapDensity="50.06" laneDensity="24.97" occupancy="15.26" waitingTime="0.00" timeLoss="52.35" speed="20.38" speedRelative="0.58" departed="27" arrived="9" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0" flow="3661.92"/>
+    </interval>
+</meandata>

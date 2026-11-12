@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-11T20:31:22.521467+05:30 by Eclipse SUMO GUI 1.27.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\internship\Proposed motorcycle sub-lane design\Car-dominant traffic\network.net.xml"/>
+        <route-files value="D:\internship\Proposed motorcycle sub-lane design\Car-dominant traffic\network.rou.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="D:\internship\Proposed motorcycle sub-lane design\Car-dominant traffic\summary.xml"/>
+        <tripinfo-output value="D:\internship\Proposed motorcycle sub-lane design\Car-dominant traffic\tripinfo.xml"/>
+        <edgedata-output value="D:\internship\Proposed motorcycle sub-lane design\Car-dominant traffic\edgedata.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="361"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.2"/>
+    </processing>
+
+    <gui_only>
+        <delay value="1000"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="33.10" id="DEFAULT_EDGEDATA">
+        <edge id="-E0" sampledSeconds="620.67" traveltime="16.11" overlapTraveltime="16.39" density="74.82" overlapDensity="75.00" laneDensity="37.41" occupancy="17.56" waitingTime="0.00" timeLoss="289.40" speed="15.54" speedRelative="0.44" departed="52" arrived="30" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0" flow="4181.08"/>
+        <edge id="E0" sampledSeconds="623.98" traveltime="15.66" overlapTraveltime="15.95" density="75.23" overlapDensity="75.40" laneDensity="37.62" occupancy="18.56" waitingTime="0.00" timeLoss="264.16" speed="15.98" speedRelative="0.40" departed="54" arrived="30" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0" flow="4324.19"/>
+    </interval>
+</meandata>

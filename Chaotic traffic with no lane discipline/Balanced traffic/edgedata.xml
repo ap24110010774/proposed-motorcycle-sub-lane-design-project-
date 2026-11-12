@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-11T20:26:42.650996+05:30 by Eclipse SUMO GUI 1.27.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\internship\Chaotic traffic with no lane discipline\Balanced traffic\network.net.xml"/>
+        <route-files value="D:\internship\Chaotic traffic with no lane discipline\Balanced traffic\network.rou.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="D:\internship\Chaotic traffic with no lane discipline\Balanced traffic\summary.xml"/>
+        <tripinfo-output value="D:\internship\Chaotic traffic with no lane discipline\Balanced traffic\tripinfo.xml"/>
+        <edgedata-output value="D:\internship\Chaotic traffic with no lane discipline\Balanced traffic\edgedata.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.2"/>
+    </processing>
+
+    <gui_only>
+        <delay value="1000"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="22.20" id="DEFAULT_EDGEDATA">
+        <edge id="-E0" sampledSeconds="311.10" traveltime="17.75" overlapTraveltime="18.08" density="55.97" overlapDensity="56.05" laneDensity="27.99" occupancy="13.62" waitingTime="0.00" timeLoss="149.08" speed="14.10" speedRelative="0.20" departed="30" arrived="12" entered="0" left="0" laneChangedFrom="1" laneChangedTo="1" flow="2837.68"/>
+        <edge id="E0" sampledSeconds="281.30" traveltime="14.96" overlapTraveltime="15.26" density="50.60" overlapDensity="50.68" laneDensity="25.30" occupancy="13.01" waitingTime="0.00" timeLoss="108.13" speed="16.72" speedRelative="0.24" departed="31" arrived="12" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0" flow="3043.57"/>
+    </interval>
+</meandata>
